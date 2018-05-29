@@ -1,3 +1,5 @@
+package com.inesvangucht;
+
 import java.sql.SQLOutput;
 import java.text.DecimalFormat;
 

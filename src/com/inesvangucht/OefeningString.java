@@ -1,3 +1,5 @@
+package com.inesvangucht;
+
 public class OefeningString {
     public static void main(String[] args) {
         String myString = "Dit is een lange tekst " +

@@ -1,3 +1,5 @@
+package com.inesvangucht;
+
 public class Mosselmaanden {
     public static void main(String[] args) {
         String maand = "jan";

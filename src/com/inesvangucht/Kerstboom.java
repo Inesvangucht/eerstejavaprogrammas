@@ -1,3 +1,5 @@
+package com.inesvangucht;
+
 public class Kerstboom {
     public static void main(String[] args) {
 

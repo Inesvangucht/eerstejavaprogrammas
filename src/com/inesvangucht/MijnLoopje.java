@@ -1,3 +1,5 @@
+package com.inesvangucht;
+
 public class MijnLoopje {
     public static void main(String[] args) {
         int teller = 1;
