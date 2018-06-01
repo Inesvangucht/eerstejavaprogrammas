@@ -11,5 +11,16 @@ public class Array {
         int getal = j[1];
         System.out.println(getal); // input opvragen op basis van indexpositie
 
+        // for voor arrays
+        // for (String x : j) {
+        //           }
+
+        int[] getallen = new int [20];
+
+        for (int r: getallen) {
+            System.out.println(r);
+        }
+        // null
+
     }
 }

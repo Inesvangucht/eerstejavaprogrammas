@@ -9,10 +9,26 @@ public class ArrayOefening1 {
 
         for (int teller = 0; teller < j.length; teller++) {
 
-            int getal = j[teller];
-            System.out.println(getal);
+            System.out.println(j[teller]);
 
         }
+
+
+
+
+        String[] namen = {"Janice", "Jim", "Jill", "Jody", "James"};
+
+        for (int count = 0; count < namen.length; count++) {
+
+            System.out.println(namen[count]);
+        }
+
+        // sneller met ander soort 'for loop' sneller als je 'iter' gebruikt
+
+        for (String naam : namen) {
+            System.out.println(naam);
+        }
+
     }
 
 }
