@@ -15,12 +15,16 @@ public class Array {
         // for (String x : j) {
         //           }
 
+
+
         int[] getallen = new int [20];
 
         for (int r: getallen) {
             System.out.println(r);
         }
         // null
+
+
 
     }
 }
