@@ -1,14 +1,6 @@
+package Week2;
+
 /**
- * OEFENING 1: Vowel Counter
- *  - vraag aan de gebruiker een input text
- *  - String -> conveer naar char []
- *  - tel alle klinkers
- *      A: 7 keer
- *      E: 3 keer
- *      O:
- *      I:
- *      U:
- *
  * OEFENING 2: Lotto Generator
  *  - Quick Pick
  *  - 1 ... 45 -> 6
@@ -24,14 +16,5 @@
  *
  */
 
-
-package Week2;
-
-public class ArreyOefening2 {
-    public static void main(String[] args) {
-
-
-        //
-
-    }
+public class Vectors {
 }
