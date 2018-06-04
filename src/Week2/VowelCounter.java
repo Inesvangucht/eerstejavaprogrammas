@@ -37,20 +37,16 @@ public class VowelCounter {
 
         char[] tekens = new char [aantal];
 
-        char[] tekensLow = tekstLow.toCharArray();  //weghalen om te checken of tekens tellen hoofdlettergevoelig is
+        char[] tekensLow = tekstLow.toCharArray();
 
 
         for (char teken : tekensLow) {
             System.out.print(teken + " / ");
         }
 
-        char [] klinkers = {'a', 'e', 'i', 'o', 'u'};
+      //  char [] klinkers = {'a', 'e', 'i', 'o', 'u'};
 
-        int a = 0;
-        int e = 0;
-        int i = 0;
-        int o = 0;
-        int u = 0;
+       int a = 0, e= 0, i= 0, o= 0, u= 0;
 
         //loopt door de array en telt bij int van klinker 1 bij
 
