@@ -1,12 +1,16 @@
 package be.vdab.beehive;
 
-public class Soldier {
+public class Soldier extends Bee{
 
     int hitpoints = 100;
     int strength = 10;
     int armour = 5;
     int attack = 10;
     int critical;
+
+    public Soldier (String name) {
+        super(name);
+    }
 
 
 
