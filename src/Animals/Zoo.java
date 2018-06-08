@@ -25,13 +25,16 @@ public class Zoo {
 
         Animal[] zoo = {catm, catf, lionm, lionf, birdm, birdf, dogm, dogf, rabbitm, rabbitf};
 
-
+        System.out.println("\n");
         ((Cat) catf).scratch((Cat)lionf);
+
+        lionm.sound();
 
         ((Dog) dogm).perform();
         ((Dog) dogf).perform();
 
         ((Rabbit) rabbitf).fluf();
+        ((Rabbit) rabbitm).fluf();
 
 
 
