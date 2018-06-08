@@ -1,6 +1,6 @@
 package be.vdab.beehive;
 
-public class Bee {
+public abstract class Bee {
 
     /**
      * Super class: hieronder vallen de andere soorten, in dit geval de andere bijen.

@@ -3,6 +3,9 @@ package be.vdab.beehive;
 public class Beehive {
     public static void main(String[] args) {
 
+//        Bee ralf = new Worker();
+//        }
+
 //        Worker maja = new Worker(100,10);
 //        Worker willy = new Worker(80, 30);
 //        maja.gatherNectar();

@@ -3,7 +3,7 @@ package be.vdab.beehive;
 public class BeeMain {
     public static void main(String[] args) {
 
-        Bee maya = new Bee ("Maya");
+        Bee maya = new Soldier ("Maya");
 
         maya.doFly();
 
