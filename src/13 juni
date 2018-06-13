@@ -1,0 +1,44 @@
+
+EXEPTIONS
+---------
+
+1. Error handling
+
+2. Things that shouldn't happen
+
+3. (Wildly) exceptional circumstance
+
+
+(!) NOT FOR NORMAL CONTROL FLOW
+
+Recursieve functie: zichzelf aanroepende functie.
+
+
+- 0
+- number format exception
+- stack overflow
+- input exception
+- enum, niet iets uit de lijst
+
+- Throwable --> opzoeken
+
+try { input scanner
+        }
+       catch (inputMismatchException e){
+       sout "er is iets fout"
+       }
+
+
+       stacktrace
+
+      _____________
+     |  throwable  |
+     |             |
+     | - message   |
+     |-------------|
+     | +stacktrace |
+     |_____________|
+
+
+     finally { }
+    zal altijd worden uitgevoerd, ook na een return, ook met break
