@@ -18,7 +18,7 @@ public class Decimaal {
         String getalFormat = euroFormat.format(getal);
         System.out.println(getalFormat);
 
-        double origineel = getalFormat;
+//        double origineel = getalFormat;
 
         /**
          * opzoeken parse
